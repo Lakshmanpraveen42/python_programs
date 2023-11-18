@@ -7,8 +7,8 @@ random_num = randint(0,10)
 x=-1
 while x != random_num:
     if x != -1:
-        print("wroge number : ")
+        print("Your guess is incorrect the number is ")
 
     x = input("enter the number : ")
     x= int(x)
-print("corretly")
+print("Your guess is correct the number is")
